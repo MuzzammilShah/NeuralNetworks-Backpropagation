@@ -1,6 +1,6 @@
 
 
-First we will be building the 'Value' object which we had seen in the [[micrograd-functionality]] explanation example.
+First we will be building the 'Value' object which we had seen in the [micrograd-functionality](micrograd-functionality.md) explanation example.
 
 ```
 class Value:
@@ -139,12 +139,7 @@ Now we have:
 
 
 Made the visual graphs for the nodes of the NN. I have split it into two notebooks as I had to use Google Colab for graphviz.
-```embed
-title: "NeuralNetworks-Backpropagation/3_1-graph-visualisation.ipynb at main · MuzzammilShah/NeuralNetworks-Backpropagation"
-image: "https://opengraph.githubassets.com/a2b2dc5069b23bd65f9057b254129a09c4f2388bc62e8a066514c26b464f32e5/MuzzammilShah/NeuralNetworks-Backpropagation"
-description: "[ 2nd October, 2024 - PRESENT ]. Contribute to MuzzammilShah/NeuralNetworks-Backpropagation development by creating an account on GitHub."
-url: "https://github.com/MuzzammilShah/NeuralNetworks-Backpropagation/blob/main/3_1-graph-visualisation.ipynb"
-```
+[Notebook](../3_1-graph-visualisation.ipynb)
 
 ------
 ----------
