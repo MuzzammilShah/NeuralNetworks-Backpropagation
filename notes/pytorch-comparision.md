@@ -66,10 +66,4 @@ x2.data.item()
 
 So the idea was to prove that everything we've build till now very much agrees with the PyTorch API syntax. 
 But to also realize that everything will become just for efficient with PyTorch.
-
-```embed
-title: "NeuralNetworks-Backpropagation/x10_implementing_in_pytorch.ipynb at main · MuzzammilShah/NeuralNetworks-Backpropagation"
-image: "https://opengraph.githubassets.com/b5b980143a1ada8850eb5544301e703e026969a4fa82cd4031dbe2582f294473/MuzzammilShah/NeuralNetworks-Backpropagation"
-description: "[ 2nd October, 2024 - PRESENT ]. Contribute to MuzzammilShah/NeuralNetworks-Backpropagation development by creating an account on GitHub."
-url: "https://github.com/MuzzammilShah/NeuralNetworks-Backpropagation/blob/main/x10_implementing_in_pytorch.ipynb"
-```
+[Notebook](x10_implementing_in_pytorch.ipynb)
