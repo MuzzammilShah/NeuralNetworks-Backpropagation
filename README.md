@@ -13,4 +13,14 @@ There are some useful comments inside the notebooks as well. So make sure you re
 
 -------
 
+There was an excersise provided by Andrej at the end of the video - [Notebook](https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing)  
+I tried my best to solve it in [this notebook](https://colab.research.google.com/drive/1sFFKx3GkiOiJ6hHQYCux-3Q2Otl4MZu9?authuser=2). 
+
+&nbsp;
+
+*Hopefully I understand all of this much much better as I move ahead with this lecture (Right now my loss function maybe a little high :) )*
+*But for now, I guess I have been able to **nudge** the values little bit in a more positive direction to improve the loss value. So that's a good sign xD*
+
+-------
+
 *See you in the next one!*
