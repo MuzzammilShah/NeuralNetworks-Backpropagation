@@ -1,4 +1,4 @@
-## SET 1 - 🔗TRAINING A BASIC NEURAL NETWORK
+## SET 1- 1🔗TRAINING A BASIC NEURAL NETWORK
 
 
 Hello. This is my Notes and Codes repo of training my first neural network. This is obviously from the first video put on this by the main man himself, Andrej Karpathy. \
