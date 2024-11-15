@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micrograd Interactive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Micrograd Interactive</h1>
+    <p>Explore neural networks, gradient descent, and MLP visualizations.</p>
+  </header>
+  
+  <nav>
+    <button class="tab-button active" data-tab="loss">Loss Graph</button>
+    <button class="tab-button" data-tab="mlp">MLP Visualization</button>
+  </nav>
+  
+  <main>
+    <section id="loss" class="tab-content active">
+      <h2>Loss Graph</h2>
+      <div class="controls">
+        <div class="control-group">
+          <label for="learningRate">Learning Rate</label>
+          <input type="range" id="learningRate" min="0.001" max="0.1" step="0.001" value="0.01">
+          <span id="learningRateValue">0.01</span>
+        </div>
+        <div class="control-group">
+          <label for="epochs">Epochs</label>
+          <input type="range" id="epochs" min="1" max="100" step="1" value="10">
+          <span id="epochsValue">10</span>
+        </div>
+      </div>
+      <canvas id="lossChart" width="800" height="400"></canvas>
+      <button id="trainButton">Train Model</button>
+    </section>
+    
+    <section id="mlp" class="tab-content">
+        <h2>MLP Visualization</h2>
+        
+        <div class="mlp-input">
+          <label for="layers">Number of Layers:</label>
+          <input type="number" id="layers" min="1" max="5" value="3">
+      
+          <label for="neurons">Neurons per Layer (comma-separated):</label>
+          <input type="text" id="neurons" value="3,2,1">
+      
+          <label for="learningRate">Learning Rate:</label>
+          <input type="number" id="learningRateMlp" step="0.01" value="0.1">
+          
+          <button id="generateMlp">Generate MLP</button>
+        </div>
+      
+        <div id="mlpCanvas"></div>
+        <button id="trainMlp">Train</button>
+      </section>
+      
+  </main>
+  
+  <footer>
+    <p>Built with ❤ using Micrograd</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
