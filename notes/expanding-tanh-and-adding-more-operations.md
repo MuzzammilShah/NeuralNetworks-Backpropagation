@@ -123,10 +123,4 @@ Therefore, no backward function here, as we are ultimately performing the additi
 Now that all of this is done, we update our Value object.
 
 Then we change the way we want 'o' in our examples. Therefore we will convert the 'tanh' into it's various expression (One of its derivative expression in fact => (e^2x -1) / (e^2x +1) )
-
-```embed
-title: "NeuralNetworks-Backpropagation/9_expanding_tanh_into_more_operations.ipynb at main · MuzzammilShah/NeuralNetworks-Backpropagation"
-image: "https://opengraph.githubassets.com/b8fb82238b84331a4166cefee90a84d849a7f3596aa0c103c40e6e0e8f8bf026/MuzzammilShah/NeuralNetworks-Backpropagation"
-description: "[ 2nd October, 2024 - PRESENT ]. Contribute to MuzzammilShah/NeuralNetworks-Backpropagation development by creating an account on GitHub."
-url: "https://github.com/MuzzammilShah/NeuralNetworks-Backpropagation/blob/main/9_expanding_tanh_into_more_operations.ipynb"
-```
+[Notebook](../9_expanding_tanh_into_more_operations.ipynb)

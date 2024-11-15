@@ -1,5 +1,5 @@
 
-Hey there, this is not part of the notes for the project implementation. You can skip this unless you have extra time for a light read and some AI motivation :)
+**Hey there, this is not part of the notes for the project implementation. You can skip this unless you have extra time for a light read and some AI motivation :)**  
 
 -----
 -----------
