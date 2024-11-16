@@ -19,8 +19,9 @@ I tried my best to solve it in [this notebook](https://colab.research.google.com
 &nbsp;
 
 *Hopefully I understand all of this much much better as I move ahead with this lecture (Right now my loss function maybe a little high :) )*
-*But for now, I guess I have been able to **nudge** the values little bit in a more positive direction to improve the loss value. So that's a good sign xD*
-
--------
-
+*But for now, I guess I have been able to **nudge** the values little bit in a more positive direction to improve the loss value. So that's a good sign xD*  \
 *See you in the next one!*
+
+------
+
+Update: Came back to this to make an interactive site version. I've got a pilot ready but still need to sort out the functionalities. Have added the version here so that maybe I can come back to improve and finish it :)
