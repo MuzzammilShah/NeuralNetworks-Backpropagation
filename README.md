@@ -1,27 +1,72 @@
-## SET 1- 1🔗TRAINING A BASIC NEURAL NETWORK
+## SET 1 - BACKPROPAGATION - Using an AutoGrad Engine 🔗
 
-
-Hello. This is my Notes and Codes repo of training my first neural network. This is obviously from the first video put on this by the main man himself, Andrej Karpathy. \
-\
-You will find all my notes that I have understood on this in the notes directory. The codes have been broken down into bit-by-bit so that I have a better understanding on them.
-
-&nbsp;
-
-**✍🏻Notes:**
-Follow the codes in order if you are revisiting them. Best way is to start from the notes, as the respective notebooks are linked there itself after the explainations. \
-There are some useful comments inside the notebooks as well. So make sure you read those as well :)
-
--------
-
-There was an excersise provided by Andrej at the end of the video - [Notebook](https://colab.research.google.com/drive/1FPTx1RXtBfc4MaTkf7viZZD4U2F9gtKN?usp=sharing)  
-I tried my best to solve it in [this notebook](https://colab.research.google.com/drive/1sFFKx3GkiOiJ6hHQYCux-3Q2Otl4MZu9?authuser=2). 
+[![Documentation](https://img.shields.io/badge/Documentation-Available-blue)](https://muzzammilshah.github.io/Road-to-GPT/Micrograd/)
+![Number of Commits](https://img.shields.io/github/commit-activity/m/MuzzammilShah/NeuralNetworks-Micrograd-Implementation?label=Commits)
+[![Last Commit](https://img.shields.io/github/last-commit/MuzzammilShah/NeuralNetworks-Micrograd-Implementation.svg?style=flat)](https://github.com/MuzzammilShah/NeuralNetworks-Micrograd-Implementation/commits/main)  
+![Project Status](https://img.shields.io/badge/Status-Done-success)
 
 &nbsp;
 
-*Hopefully I understand all of this much much better as I move ahead with this lecture (Right now my loss function maybe a little high :) )*
-*But for now, I guess I have been able to **nudge** the values little bit in a more positive direction to improve the loss value. So that's a good sign xD*  \
-*See you in the next one!*
+### **Overview**
+This repository contains the implementation of **Backpropagation** using an **AutoGrad Engine**, inspired by the **Micrograd** video by Andrej Karpathy. It explores the foundations of training neural networks and implementing key operations from scratch.
 
-------
+The repository contains:
 
-Update: Came back to this to make an interactive site version. I've got a pilot ready but still need to sort out the functionalities. Have added the version here so that maybe I can come back to improve and finish it :)
+- **Manual Backpropagation**: Building intuition and understanding of the gradient calculation process.
+- **Interactive Site Version**: A pilot version of an interactive site that visualizes the functionality, currently under development.
+
+✍🏻 Notes: Follow the notebooks in order for a structured learning path. Each notebook and note corresponds to a particular concept or milestone in the implementation.
+
+&nbsp;
+
+### **🗂️Repository Structure**
+
+```plaintext
+├── .gitignore
+├── README.md
+├── notes/
+│   ├── A-main-video-lecture-notes.md
+│   ├── chatgpt-motivation.md
+│   ├── crux-node-backpropagation.md
+│   ├── expanding-tanh-and-adding-more-operations.md
+│   ├── micrograd-functionality.md
+│   ├── multi-layer-perceptron.md
+│   ├── neurons-explanation.md
+│   ├── pytorch-comparision.md
+│   └── value-object-creation.md
+├── site/
+│   ├── interactive_site_pilot_v1.2/
+├── 1-derivative-simple-function.ipynb
+├── 2-derivative-function-with-multiple-inputs.ipynb
+├── 3-value-object.ipynb
+├── 3_1-graph-visualisation.ipynb
+├── 4_0-manual-backpropagation_simpleExpression.ipynb
+├── ... (remaining implementation notebooks)
+```
+
+- **Notes Directory**: Contains Markdown files with notes and explanations for each topic.
+- **Interactive Site Directory**: Contains files for the pilot version of the interactive visualization tool.
+- **Implementation Notebooks**: Step-by-step code for implementing and understanding backpropagation and related concepts.
+
+&nbsp;
+
+### **📄Instructions**
+
+1. Start by reading the notes in the `notes/` directory for a theoretical understanding.
+2. Proceed with the notebooks in the root directory in order to build up the implementation step by step.
+3. Explore the `site/` directory for the pilot interactive version of the AutoGrad Engine visualization (Idea concept, not yet implemented)
+
+&nbsp;
+
+### **⭐Documentation**
+
+For a better reading experience and detailed notes, visit my **[Road to GPT Documentation Site](https://muzzammilshah.github.io/Road-to-GPT/Micrograd/)**. 
+
+> **💡Pro Tip**: This site provides an interactive and visually rich explanation of the notes and code. It is highly recommended you view this project from there.
+
+&nbsp;
+
+### **✍🏻Acknowledgments**
+Notes and implementations inspired by the **Micrograd** video by [Andrej Karpathy](https://karpathy.ai/).  
+
+For more of my projects, visit my [Portfolio Site](https://muhammedshah.com).
