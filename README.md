@@ -1,4 +1,4 @@
-## SET 1 - BACKPROPAGATION - Using an AutoGrad Engine 🔗
+## SET 1 - MICROGRAD 🔗
 
 [![Documentation](https://img.shields.io/badge/Documentation-Available-blue)](https://muzzammilshah.github.io/Road-to-GPT/Micrograd/)
 ![Number of Commits](https://img.shields.io/github/commit-activity/m/MuzzammilShah/NeuralNetworks-Micrograd-Implementation?label=Commits)
