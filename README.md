@@ -41,7 +41,7 @@ The repository contains:
 ├── 3-value-object.ipynb
 ├── 3_1-graph-visualisation.ipynb
 ├── 4_0-manual-backpropagation_simpleExpression.ipynb
-├── ... (remaining implementation notebooks)
+├── ... (more implementation notebooks, there are a lot lol)
 ```
 
 - **Notes Directory**: Contains Markdown files with notes and explanations for each topic.
